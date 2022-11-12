@@ -2,4 +2,4 @@
 
 | Topics | Language |
 | :----- | :-------: |
-| [Knight walk](https://github.com/itsbibeksaini/CompetativeProblems/tree/main/C%23/KnightWalk) | C# |
+| [Knight walk](https://github.com/itsbibeksaini/CompetativeProblems/tree/main/knight-walk#readme) | C# |
