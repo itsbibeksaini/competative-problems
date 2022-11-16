@@ -25,3 +25,5 @@ out/
 .vscode/
 .DS_Store
 .run
+# Ignore Gradle build output directory
+build

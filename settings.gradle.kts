@@ -1,0 +1,3 @@
+
+
+rootProject.name = "competative-problems"
