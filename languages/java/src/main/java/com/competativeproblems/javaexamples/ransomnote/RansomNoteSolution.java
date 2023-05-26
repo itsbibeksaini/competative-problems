@@ -1,7 +1,13 @@
 package com.competativeproblems.javaexamples.ransomnote;
 
-public class RansomNoteSolution {
-    public int solution(){
-        return 0;
+import com.competativeproblems.javaexamples.Solution;
+
+import java.util.List;
+
+public class RansomNoteSolution implements Solution<List> {
+
+    @Override
+    public List solution(List o) {
+        return null;
     }
 }
