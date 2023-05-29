@@ -2,7 +2,7 @@ package com.competativeproblems.javaexamples.runningsum;
 
 import com.competativeproblems.javaexamples.Solution;
 
-public class RunningSum implements Solution<int[]> {
+public class RunningSum implements Solution<int[], int[]> {
     @Override
     public int[] solution(int[] nums) {
 
