@@ -25,11 +25,15 @@ public class CompressString implements Solution<String, String> {
 
         for (int i = 1; i < inputString.length(); i++) {
 
+            // verify if current character and previous character is same, if so increment counter
             if(inputString.charAt(i) == inputString.charAt(i - 1))
                 characterCounter++;
             else{
+
+                // else append character and counter to string builder and reset counter for counting next character occurrences.
                 stringBuilder.append(inputString.charAt(i - 1));
 
+                // do not add if counter is at 1 which means character has only 1 occurrence
                 if(characterCounter > 1)
                     stringBuilder.append(characterCounter);
 
@@ -39,6 +43,7 @@ public class CompressString implements Solution<String, String> {
 
         stringBuilder.append(inputString.charAt(inputString.length() - 1));
 
+        // do not add if counter is at 1 which means character has only 1 occurrence
         if(characterCounter > 1)
             stringBuilder.append(characterCounter);
 
